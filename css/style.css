@@ -12,7 +12,7 @@ h1, p, header,footer, a, nav, h2 {
 }
 
 html {
-    /* background-size: 100% 100%; */
+    background-size: cover;
     position: fixed;
 }
 
@@ -64,7 +64,7 @@ ul {
 .ispreload{
     /* width: auto;
     height: auto; */
-    background-size: 100% 100%;
+    /* background-size: cover; */
     background: url("images/bg.jpg");
     /* min-height: 100%; */
     position: relative;
