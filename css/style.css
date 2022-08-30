@@ -14,10 +14,15 @@ html {
     position: fixed;
 }
 
+div.topnav {
+    width: 20.85%;
+}
+
 .topnav {
-    position: fixed;
-    background-color: rgb(25, 167, 223);
-    overflow: hidden; 
+
+    width: 100%;
+    position:fixed;
+    background-color: rgb(7, 10, 9);
     left: 74%; 
     top: 8%;
     border-radius: 4px;
@@ -92,6 +97,7 @@ ul {
 a.brand-twitter { 
     width: 0;
     height: 0;
+
 }
 
 a.brand-linkedin {
@@ -116,7 +122,7 @@ a.brand-envelope {
 }
 
 .ispreload{
-    width: 100;
+    width: 100%;
     height: auto;
     background-size: 100% 100%;
     background: url("images/bg.jpg");
@@ -136,6 +142,13 @@ a.brand-envelope {
     }
 }
 
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .ispreload, .header, .topnav , .menu, #footer {
+      width: 100%;
+    }
+  }
+
 .brand-twitter {
     color: rgb(226, 90, 106);
     font-size: 50px;
@@ -148,6 +161,7 @@ a.brand-envelope {
 .brand-twitter:hover {
     color:aliceblue;
     transform: scale(1.2);
+
 }
 
 .brand-linkedin {
