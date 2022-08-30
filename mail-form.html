@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Contact Form</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    </head>
+<body>
+    
+    <div class="container">
+        <h1 class="intro">Contact Me</h1>
+        <form class="info" action="" method="POST">
+            <div class="givenname">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" placeholder="Your name.." id="firstName" required>
+            </div>
+            <div class="surname">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Your last name.." required>
+            </div>
+            <div class="email">
+                <label for="mail" class="form-label">E-mail</label><br>
+                <input type="text" class="form-control" id="lastName" placeholder="example@gmail.com" required>
+            </div>
+            <div class="number">
+                <label for="phone" class="form-label">Phone Number</label><br>
+                <input type="text" class="form-control" id="lastName" placeholder="+1 (415) 867-5309">
+            </div>
+            <div class="notes">
+                <label for="note" class="form-label">Description</label><br>
+                <textarea type="text" class="details" id="comments" placeholder="Write something about your interest..." required></textarea>
+            </div>
+
+            <input class="send" type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

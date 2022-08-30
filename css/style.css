@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-h1, p, header,footer, a, nav, h2 {
-    position: fixed;
+p, header,footer, h2 {
     margin: 0;
     padding: 0;
     border: 0;
@@ -12,9 +11,9 @@ h1, p, header,footer, a, nav, h2 {
 }
 
 html {
-    background-size: cover;
     position: fixed;
 }
+
 
 #header {
     position: fixed;
@@ -25,34 +24,37 @@ html {
     height: 20%;
 }
 
+h1 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 #header h1 {
-    left: 20px;
     color:aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4.35em;
+    font-size:70px;
     font-weight: 900;
-    letter-spacing: -0.035em;
-    line-height: 1em;    
 }
 
 #header p {
     color:rgb(251, 157, 42);
     font-weight: 400;
     font-size: 1.25em;
-    top: 40%;
+    top: 45%;
     width: 110%;
     height: 20%;
 }
 
 nav.menu {
-    top: 70%;
-    width: 100%;
-    right: 40px;
+    top: 60%;
+    left: 33%;
     position: fixed;
 }
 
 ul {
     margin:0;
+    padding: 0;
 }  
 
 .menu li{
@@ -62,11 +64,10 @@ ul {
 }
 
 .ispreload{
-    /* width: auto;
-    height: auto; */
-    /* background-size: cover; */
+    width: 100;
+    height: auto;
+    background-size: 100% 100%;
     background: url("images/bg.jpg");
-    /* min-height: 100%; */
     position: relative;
     animation-name: animate;
     animation-duration: 50s;
@@ -140,6 +141,7 @@ ul {
 }
 
 #footer {
+    position: fixed;
     font-size: 25px;
     font-family:cursive;
     font-weight: 400;
@@ -149,4 +151,87 @@ ul {
 
 #footer a {
     background-color:aliceblue
+}
+
+/* mail-form */
+div.container{
+    position: fixed;
+    top: 90px;
+    width: 100%;
+    height: 80%;
+    left: 15%;
+    right: 15%;
+}
+
+h1.intro{
+    /* position:fixed; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 30px;
+    left: 40px;
+    font-size: 40px;
+}
+
+.info {
+    background:#f2f2f2 ;
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 40%;
+    padding: 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20%;
+}
+
+.form-label {
+    /* position: fixed; */
+    font-size: 20px;
+    top: 18%;
+}
+
+.givenname {
+    width: 50%;
+    height: 20%;
+}
+
+.surname {
+    width: 50%;
+    height: 20%;
+}
+
+.email {
+    width: 50%;
+    height: 20%;
+}
+
+.number {
+    width: 50%;
+    height: 20%;
+}
+
+input.form-control {
+    width: 95%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+textarea#comments.details {
+    width: 80%;
+    height: 40%;
+    resize:both;
+
+}
+
+.send {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 4px;
+    position: fixed;
+    top: 70%;
+    font-size: 18px;
+    padding: 12px 20px;
+    cursor: pointer;
 }
