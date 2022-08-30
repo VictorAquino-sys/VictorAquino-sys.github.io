@@ -16,10 +16,11 @@ html {
 
 .topnav {
     position: fixed;
-    background-color: #333;
+    background-color: rgb(25, 167, 223);
     overflow: hidden; 
     left: 74%; 
     top: 8%;
+    border-radius: 4px;
 }
 
 /* Style the links inside the navigation bar */
