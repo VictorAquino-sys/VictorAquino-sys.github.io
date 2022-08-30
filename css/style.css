@@ -103,7 +103,7 @@ ul {
     font-size: 40px;
     border-radius: 50%;
     padding: 10px;
-    height: 40px;
+    /* height: 40px; */
     border: 2px solid aliceblue;
 }
 
@@ -117,7 +117,7 @@ ul {
     font-size: 40px;
     border-radius: 50%;
     padding: 10px;
-    height: 23%;
+    /* height: 23%; */
     border: 2px solid aliceblue;
 }
 
@@ -131,7 +131,7 @@ ul {
     font-size: 40px;
     border-radius: 50%;
     padding: 10px;
-    height: 23%;
+    /* height: 23%; */
     border: 2px solid aliceblue;
 }
 
