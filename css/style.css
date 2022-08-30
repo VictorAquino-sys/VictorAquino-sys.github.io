@@ -57,6 +57,26 @@ ul {
     padding: 0;
 }  
 
+a.brand-twitter { 
+    width: 0;
+    height: 0;
+}
+
+a.brand-linkedin {
+    width: 0;
+    height: 0;
+}
+
+a.brand-github {
+    width: 0;
+    height: 0;
+}
+
+a.brand-envelope {
+    width: 0;
+    height: 0;
+}
+
 .menu li{
     display: inline;
     font-size: 20px;
@@ -86,10 +106,10 @@ ul {
 
 .brand-twitter {
     color: rgb(226, 90, 106);
-    font-size: 40px;
+    font-size: 50px;
     border-radius: 50%;
     padding: 10px;
-    height: 40px;
+    height: 20px;
     border: 2px solid aliceblue;
 }
 
@@ -100,10 +120,10 @@ ul {
 
 .brand-linkedin {
     color: cadetblue;
-    font-size: 40px;
+    font-size: 50px;
     border-radius: 50%;
     padding: 10px;
-    /* height: 40px; */
+    height: 38px;
     border: 2px solid aliceblue;
 }
 
@@ -114,10 +134,10 @@ ul {
 
 .brand-github {
     color:black;
-    font-size: 40px;
+    font-size: 50px;
     border-radius: 50%;
     padding: 10px;
-    /* height: 23%; */
+    height: 23%;
     border: 2px solid aliceblue;
 }
 
@@ -128,10 +148,10 @@ ul {
 
 .brand-envelope {
     color:blueviolet;
-    font-size: 40px;
+    font-size: 50px;
     border-radius: 50%;
     padding: 10px;
-    /* height: 23%; */
+    height: 23%;
     border: 2px solid aliceblue;
 }
 
