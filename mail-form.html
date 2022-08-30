@@ -12,13 +12,21 @@
     <div class="container">
         <h1 class="intro">Contact Me</h1>
         <form class="info" action="https://formsubmit.co/58093efb4714edfec687e8edbfa9e1f4" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display:none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_next" value="https://victoraquino-sys.github.io/success.html">
+            
             <div class="givenname">
                 <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" name="name" placeholder="Your name.." id="firstName" required>
+                <input type="text" class="form-control" name="Name" placeholder="Your name.." id="firstName" required>
             </div>
             <div class="surname">
                 <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" name="Last Name" id="lastName" placeholder="Your last name.." required>
+                <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" placeholder="Your last name.." required>
             </div>
             <div class="email">
                 <label for="mail" class="form-label">E-mail</label>
@@ -30,7 +38,7 @@
             </div>
             <div class="notes">
                 <label for="note" class="form-label">Description</label><br>
-                <textarea type="text" class="details" name="questions" id="comments" placeholder="Write something about your interest..." required></textarea>
+                <textarea type="text" class="details" name="Questions" id="comments" placeholder="Write something about your interest..." required></textarea>
             </div>
 
             <button class="send" type="Submit">Submit</button>
