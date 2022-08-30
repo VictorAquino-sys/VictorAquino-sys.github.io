@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-p, header,footer, h2 {
+p,footer, h2 {
     margin: 0;
     padding: 0;
     border: 0;
@@ -15,13 +15,13 @@ html {
 }
 
 
-#header {
+#header h1{
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 53%;
     transform: translate(-50%, -50%);
     width: 30%;
-    height: 20%;
+    height: 10%;
 }
 
 h1 {
@@ -38,12 +38,15 @@ h1 {
 }
 
 #header p {
-    color:rgb(251, 157, 42);
-    font-weight: 400;
-    font-size: 1.25em;
-    top: 45%;
-    width: 110%;
-    height: 20%;
+    position: fixed;
+    color:rgb(12, 9, 6);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.30em;
+    top: 47%;
+    text-align: center;
+    width: 100%;
+    height: 5%;
 }
 
 nav.menu {
@@ -174,10 +177,10 @@ a.brand-envelope {
 }
 
 /* mail-form */
-div.container{
+.container{
     position: fixed;
     top: 90px;
-    width: 100%;
+    width: 80%;
     height: 80%;
     left: 15%;
     right: 15%;
@@ -195,7 +198,7 @@ h1.intro{
     background:#f2f2f2 ;
     display:flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     height: 40%;
     padding: 20px;
     border-radius: 5px;
@@ -204,7 +207,6 @@ h1.intro{
 }
 
 .form-label {
-    /* position: fixed; */
     font-size: 20px;
     top: 18%;
 }
@@ -238,11 +240,24 @@ input.form-control {
 
 }
 
-textarea#comments.details {
-    width: 80%;
+/* textarea#comments.details {
     height: 40%;
     resize:both;
+    width: 80px;
+} */
 
+textarea#comments {
+    width: 80%;
+}
+
+.notes {
+    /* display: inline; */
+    width: 100%;
+    height: 50%;
+}
+
+.details {
+    height: 80%;
 }
 
 .send {
