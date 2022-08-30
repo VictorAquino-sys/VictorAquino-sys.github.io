@@ -14,16 +14,21 @@ html {
     position: fixed;
 }
 
+body {
+    display:flex;
+    min-height: 100vh;
+}
+
 div.topnav {
-    width: 20.85%;
+    width: 14.98%;
 }
 
 .topnav {
 
     width: 100%;
     position:fixed;
-    background-color: rgb(7, 10, 9);
-    left: 74%; 
+    background-color: rgb(49, 154, 183);
+    left: 78%; 
     top: 8%;
     border-radius: 4px;
 }
@@ -31,7 +36,7 @@ div.topnav {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #fbfbfb;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -62,30 +67,40 @@ h1 {
     padding: 0;
     margin: 0;
     border: 0;
+    width: 50%;
 }
 
 #header h1 {
     color:aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:70px;
-    font-weight: 900;
+    font-family: Georgia, serif;
+    font-size:380%;
+}
+
+p {
+    width: 50%;
+}
+
+.main-font {
+    color: rgb(239, 195, 34);
 }
 
 #header p {
+    /* background-color: rgb(42, 176, 188); */
+    border-radius: 4px;
     position: fixed;
-    color:rgb(12, 9, 6);
-    font-weight: 700;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: system-ui;
     font-size: 1.30em;
     top: 47%;
     text-align: center;
-    width: 100%;
-    height: 5%;
+    left: 26%;
 }
 
 nav.menu {
+    width: 100%;
     top: 60%;
-    left: 33%;
+    left: 30%;
     position: fixed;
 }
 
@@ -127,7 +142,7 @@ a.brand-envelope {
     background: url("images/bg.jpg");
     position: relative;
     animation-name: animate;
-    animation-duration: 50s;
+    animation-duration: 160s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -206,8 +221,8 @@ a.brand-envelope {
 }
 
 #footer {
+    width: 100%;
     position: fixed;
-    font-size: 25px;
     font-family:cursive;
     font-weight: 400;
     top: 95%;
@@ -215,10 +230,12 @@ a.brand-envelope {
 }
 
 #footer a {
+    font-size: 140%;
     background-color:aliceblue
 }
 
 /* mail-form */
+
 .container{
     position: fixed;
     top: 90px;
@@ -282,18 +299,11 @@ input.form-control {
 
 }
 
-/* textarea#comments.details {
-    height: 40%;
-    resize:both;
-    width: 80px;
-} */
-
 textarea#comments {
     width: 80%;
 }
 
 .notes {
-    /* display: inline; */
     width: 100%;
     height: 50%;
 }
@@ -312,3 +322,4 @@ textarea#comments {
     padding: 12px 20px;
     cursor: pointer;
 }
+
