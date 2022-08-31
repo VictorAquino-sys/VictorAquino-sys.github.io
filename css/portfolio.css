@@ -2,7 +2,15 @@
 
 body {
     min-height: 100vh;
+    margin: 0;
 }
+
+/* .project {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} */
 
 h1 {
     position: fixed;
@@ -25,16 +33,19 @@ p {
     font-size: 150%;
 }
 
-div#title {
-    display: inline-block;
-    background-color:azure;
+.title {
+    /* display: inline-block; */
+    /* background-color:azure; */
     width: 40%;
     height: 40%;
 }
-/* #header-info {
-    width: 100%;
-    height:8%;
-} */
+
+.header-info {
+    background-color: aqua;
+    position: fixed;
+    width: 50%;
+    /* height:8%; */
+}
 
 /* .headline {
     left: 50%;
