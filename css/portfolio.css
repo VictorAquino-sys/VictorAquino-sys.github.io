@@ -11,6 +11,14 @@ html, body, div, header, h1, p, .term-one{
     padding: 0;
 }
 
+
+/* mobile device */
+@media (max-width: 768px) {
+    body {
+        height:100vh;
+    }
+}
+
 /* header {
     align-items: center;
 } */
