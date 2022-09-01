@@ -1,5 +1,5 @@
 /* Portfolio */
-html, body, div, header, h1, p, .term-one{
+html, body, div, header, h1, h2, .term-one{
     display: block;
     /* position: relative; */
     font-size: 100%;
@@ -16,10 +16,6 @@ html, body, div, header, h1, p, .term-one{
 @media (max-width: 768px) {
     body {
         height:100vh;
-    }
-
-    h1{
-        text-align: center;
     }
 }
 
@@ -107,28 +103,61 @@ html, body, div, header, h1, p, .term-one{
 
 .childtwo {
     display: flex;
+    /* justify-content: space-between; */
     width: 100%;
     height: 40%;
 }
 
 .data-image {
     display: inline;
+    flex: 1 1 100%;
     position:relative;
     width: 50%;
     height: 90%;
-    left: 7%;
+    /* left: 7%; */
     top: 8%;
 }
 
-.term-one p{
+.data-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.term-one {
+    flex: 1 1 100%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.term-one h2{
     display: inline;
     position: relative;
     width: 20px;
     height: 20px;
-    left: 45%;
+    left: 22%;
     font-size: 23px;
     color: rgb(120, 60, 17);
     font-family: cursive;
     font-style: italic;
     text-decoration: underline;
+}
+
+h3 {
+    margin-top: 5%;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(31, 226, 232);
+}
+
+p {
+
+    font-size: 18px;
+    font-family: Georgia, serif;
+    text-indent: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 30%;
+    color: rgb(108, 111, 105);
 }
