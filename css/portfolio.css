@@ -172,4 +172,10 @@ button {
     padding: 10px 16px;
     color: rgba(6, 75, 173, 0.711);
     cursor: pointer;
+    border-radius: 4%;
+}
+
+button:hover {
+    background-color: rgba(6, 75, 173, 0.711);
+    color: white;
 }
