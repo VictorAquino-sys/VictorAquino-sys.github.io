@@ -6,3 +6,6 @@ Check out my website at https://victoraquino-sys.github.io/
 
 - HTML
 - CSS
+
+# Acknowledgments
+- [AOS](https://github.com/VincentGarreau/particles.js/) - Particles animation
