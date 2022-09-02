@@ -75,20 +75,16 @@ html, body, div, header, h1, h2, .term-one{
     height: 20%;
 }
 
-
-/* .header-info {
-    display: inline;
-    position: fixed;
-    width: 15%;
-    height: 5%;
-    top: 10%;
-    left: 50%;
-}  */
-
-/* .headline {
-    left: 50%;
-    position: fixed;
-} */
+.child button {
+    color: cadetblue;
+    position: relative;
+    left: 8%;
+    top: 30%;
+    border-color: cadetblue;
+    border-radius: 50%;
+    background-color: (220, 225, 225);
+    cursor: pointer;
+}
 
 .main-name {
     color:cadetblue;
@@ -162,7 +158,7 @@ p {
     color: rgb(108, 111, 105);
 }
 
-button {
+.term-one button {
     background-color: rgb(245, 245, 249);
     border-color: rgba(52, 131, 241, 0.711);
     position: relative;
