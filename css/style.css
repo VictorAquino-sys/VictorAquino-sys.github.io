@@ -322,9 +322,10 @@ textarea#comments {
 .send {
     background-color: #50ba93;
     color: white;
-    border-radius: 4px;
+    border-radius: 3px;
     position: fixed;
     top: 70%;
+    left: 24%;
     font-size: 18px;
     padding: 12px 20px;
     cursor: pointer;
@@ -334,3 +335,19 @@ textarea#comments {
     background-color: #21956b;
 }
 
+.previous {
+    position: fixed;
+    top: 70%;
+    background-color: #f2f2f2;
+    border-color: #e7e7e7;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-size: 18px;
+    left: 15%;
+    padding: 12px 10px;
+    cursor: pointer;
+}
+
+.previous:hover {
+    background-color: #dfdada;
+}

@@ -121,9 +121,10 @@ h1 {
 h3 {
     margin-top: 5%;
     font-family: "Gill Sans", sans-serif;
+    font-style: italic;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(31, 226, 232);
+    color: rgb(31, 152, 232);
 }
 
 p {
