@@ -2,14 +2,47 @@
 @import url("fontawesome-all.min.css");
 
 html {
-    position: fixed;
     -webkit-text-size-adjust: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    display:flex;
-    min-height: 100vh;
+    margin:0;
+    padding:0;
+    height: 100%;
 }
+
+#particles-js {
+    position: fixed;
+    background:#12d0fa;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-size: 100% 100%;
+    /* background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("images/bg.jpg"); */
+    /* position: relative; */
+    animation-name: animate;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    #particles-js, .header, .topnav , .menu, #footer {
+      width: 100%;
+    }
+  }
 
 h2 {
     margin: 0;
@@ -141,34 +174,19 @@ a.brand-envelope {
     padding: 50px;
 }
 
-.ispreload{
+/* .ispreload{
     width: 100%;
     height: auto;
     margin: 0;
     background-size: 100% 100%;
-    background: url("images/bg.jpg");
+    background: url("images/cool-background1.png");
     position: relative;
     animation-name: animate;
     animation-duration: 160s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
+} */
 
-@keyframes animate {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 100% 0;
-    }
-}
-
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .ispreload, .header, .topnav , .menu, #footer {
-      width: 100%;
-    }
-  }
 
 .brand-twitter {
     color: rgb(226, 90, 106);
