@@ -320,7 +320,7 @@ textarea#comments {
 }
 
 .send {
-    background-color: #04AA6D;
+    background-color: #50ba93;
     color: white;
     border-radius: 4px;
     position: fixed;
@@ -328,5 +328,9 @@ textarea#comments {
     font-size: 18px;
     padding: 12px 20px;
     cursor: pointer;
+}
+
+.send:hover {
+    background-color: #21956b;
 }
 
