@@ -1,48 +1,96 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-html {
+html , body, header, div, h1, .hero, .topnav, .inner-wrapper{
+    display: block;
     -webkit-text-size-adjust: 100%;
+    /* font-size: 100%; */
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-body {
+/* body {
     margin:0;
     padding:0;
     height: 100%;
-}
+} */
 
 #particles-js {
     position: fixed;
     background:#12d0fa;
     width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-size: 100% 100%;
+    height: 100%;
+    /* margin: 0;
+    background-size: 100% 100%; */
     /* background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("images/bg.jpg"); */
     /* position: relative; */
-    animation-name: animate;
+    /* animation-name: animate;
     animation-duration: 200s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
 }
 
-@keyframes animate {
+/* @keyframes animate {
     from {
         background-position: 0 0;
     }
     to {
         background-position: 100% 0;
     }
-}
+} */
 
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
     #particles-js, .header, .topnav , .menu, #footer {
       width: 100%;
     }
-  }
+}
+
+.hero {
+    position:fixed;
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(49, 154, 183); */
+    /* left: 43%; */
+    align-items: center; 
+    /* right: 20%; */
+    top: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    /* text-align: center; */
+    /* position: fixed; */
+    /* left: 37%; */
+    /* right: 30%; */
+    /* float: left; */
+    top: 40%;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+    width: auto;
+    height: 8%;
+    color:aliceblue;
+    font-family: Georgia, serif;
+    font-size:380%;
+}
+
+header p {
+    /* border-radius: 4px; */
+    /* position: fixed; */
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: system-ui;
+    /* font-size: 1.30em; */
+    font-size: 140%;
+    /* top: 50%; */
+    text-align: center;
+    /* left: 31.5%; */
+    /* width: 50%; */
+    margin: 1%;
+}
 
 h2 {
     margin: 0;
@@ -53,32 +101,31 @@ h2 {
     vertical-align: baseline;
 }
 
-div.topnav {
-    width: 14.98%;
-}
-
-.inner-wrapper {
-    display: fixed;
-    width: 80%;
-    height: 80%;
-}
-
 .topnav {
-    width: 100%;
     position:fixed;
-    background-color: rgb(49, 154, 183);
-    left: 78%; 
-    top: 8%;
-    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(49, 154, 183); */
+    /* left: 43%; */
+    align-items: center; 
+    /* right: 20%; */
+    top: 60%;
+    display: flex;
+    justify-content: center;
+
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
+    top: 10%;
+    background-color: rgb(49, 154, 183);
     color: #fbfbfb;
     text-align: center;
-    padding: 14px 16px;
+    padding: 17px 16px;
+    margin: 4px;
     text-decoration: none;
+    border-radius: 6px;
     font-size: 20px;
 }
 /* Change the color of links on hover */
@@ -93,59 +140,37 @@ div.topnav {
     color: white;
 }
 
-#header h1{
-    position: fixed;
-    top: 40%;
-    left: 53%;
-    transform: translate(-50%, -50%);
-    width: 30%;
-    height: 10%;
-}
-
-h1 {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    width: 50%;
-}
-
-#header h1 {
-    color:aliceblue;
-    font-family: Georgia, serif;
-    font-size:380%;
-}
-
-p {
-    width: 50%;
-}
-
 .main-font {
     color: rgb(239, 195, 34);
 }
 
-#header p {
-    /* background-color: rgb(42, 176, 188); */
-    border-radius: 4px;
-    position: fixed;
-    color:rgb(0, 0, 0);
-    font-weight: 600;
-    font-family: system-ui;
-    font-size: 1.30em;
-    top: 47%;
-    text-align: center;
-    left: 26%;
-}
 
-nav.menu {
+
+
+.menu {
+    position:fixed;
     width: 100%;
+    height: auto;
+    /* background-color: rgb(49, 154, 183); */
+    /* left: 43%; */
+    align-items: center; 
+    /* right: 20%; */
     top: 80%;
-    left: 30%;
-    position: fixed;
+    display: flex;
+    justify-content: center;
 }
 
-ul {
-    margin:0;
-    padding: 0;
+.menu ul {
+    /* position:fixed; */
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(49, 154, 183); */
+    /* left: 43%; */
+    /* align-items: center;  */
+    /* right: 20%; */
+    /* top: 80%; */
+    display: flex;
+    justify-content: center;
 }  
 
 a.brand-twitter { 
